@@ -1,0 +1,93 @@
+<body bgcolor="#d3d3d3">
+<body>
+<style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7FFFD4;
+            color: #5F9EA0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://th.bing.com/th/id/R.e69d1f530bcc9f75a0cc2c1551b1f145?rik=HCHzoe6l7Y8Pew&riu=http%3a%2f%2fwww.proactivereport.com%2fwp-content%2fuploads%2f2015%2f10%2fdigital-skills2.jpg&ehk=qeGb%2b5ze4WTJ6jkXXT3ftVkR5EfYNUqc7607IP14Ok8%3d&risl=&pid=ImgRaw&r=0" alt="Reduced Image" width="250" height="150">
+    </header>
+
+
+<nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- Link back to the main page -->
+      </ul>
+    </nav>
+
+
+
+
+
+
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+
+    <p>Have questions or need assistance? Reach out to us!</p>
+
+    <!-- Contact Form -->
+    <form action="process-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="copyright">
+      <p>&copy; 2023 Digital Skill Hub. All rights reserved.</p>
+    </div>
+  </footer>

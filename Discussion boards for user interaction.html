@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3d3d3; /* Ash color */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            resize: none;
+        }
+        button {
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .post {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+       <img src="https://th.bing.com/th/id/R.e69d1f530bcc9f75a0cc2c1551b1f145?rik=HCHzoe6l7Y8Pew&riu=http%3a%2f%2fwww.proactivereport.com%2fwp-content%2fuploads%2f2015%2f10%2fdigital-skills2.jpg&ehk=qeGb%2b5ze4WTJ6jkXXT3ftVkR5EfYNUqc7607IP14Ok8%3d&risl=&pid=ImgRaw&r=0" alt="Reduced Image" width="250" height="150">
+    </header>
+
+    <section>
+        <h2>Discussion Board</h2>
+
+        <form action="#" method="post">
+            <label for="message">Post a message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Post</button>
+        </form>
+
+        <div class="post">
+            <strong>User1:</strong>
+            <p>This is an example message. Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        </div>
+
+        <div class="post">
+            <strong>User2:</strong>
+            <p>Another example message. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+
+        <!-- Add more posts dynamically -->
+
+    </section>
+
+</body>
+</html>
